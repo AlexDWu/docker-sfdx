@@ -1,4 +1,4 @@
-FROM debian:stable
+FROM circleci/ubuntu-server
 RUN apt-get update
 RUN apt-get install -y openssl
 RUN apt-get install -y wget
